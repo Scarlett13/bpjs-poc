@@ -125,7 +125,7 @@ const PesertaPage = () => {
                     autoComplete="off"
                 >
                     <Form.Item label="Jenis Kartu" name='jenis'>
-                        <Select defaultValue='nik'>
+                        <Select defaultValue='Pilih Jenis Kartu'>
                             <Select.Option value="nik">NIK</Select.Option>
                             <Select.Option value="noka">Kartu BPJS</Select.Option>
                         </Select>

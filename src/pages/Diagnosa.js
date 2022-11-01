@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Button, Form, Input, Table } from 'antd';
 import { getDataDiagnosaService } from "../redux/services/diagnosaService";
 import { useDispatch, useSelector } from "react-redux";
